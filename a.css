@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: roboto;
+  background: rgb(151, 176, 235);
+
+  margin: 1px;
+}
+
+.sidenav {
+
+  height: 100%;
+width: 2px;
+  position: absolute;;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(66, 122, 212);
+ 
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+.mysidenav{
+  width: 122px;
+}
+.sidenav a {
+  padding: 8px 8px 12px 42px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+ 
+}
+
+.sidenav a:hover {
+  color: #f60f0f;
+
+
+  
+}
+hr{
+  background-color: #000000;
+  height: 0;
+  border:1px solid transparent;
+
+
+}
+.sidenav a i {
+  color: rgb(255, 255, 255);
+
+
+}
+.sidenav a i:hover{
+  color: rgb(131, 7, 7);
+
+
+
+
+}
+.abcd{
+  font-size: large;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 1px;
+  width: 2px;
+  right: 180px;
+  font-size: 20px;
+  margin-right: 0;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 120px;}
+  .sidenav a {font-size: 1px;}
+}
+.vp-hdr-top{
+  top: 0;
+  background: rgb(62, 126, 209);
+  width: 100%;
+  height: 100px;
+  
+}
+
+input{
+  width: 400px;
+  height: 20px;
+  background-color: #8fb7ec;
+  border: 1px solid rgb(28, 77, 184);
+  margin:1px;
+
+align-items: center;
+ 
+  padding: 10px 0 10px;
+ 
+}
+form{
+  
+    border: rgb(33, 84, 226);
+    background-color:transparent;
+    position: relative;
+    align-items: center;
+    left: 240px;
+    top:2px;
+    padding-right: 12px; 
+
+
+}
+.fab.fa-youtube.nav-icon{
+
+
+  padding-left: 90px;
+  font-size: 30px;
+  padding-bottom: 0 1.5cm;
+  position: relative;
+  align-items: center;
+  
+
+
+}
+.fas.fa-search.nav-icon{
+  color: rgb(167, 9, 9);
+  background:#8fb7ec;
+  padding: 12px;
+  padding-top: 12px;
+  padding-right: 12px;
+  height: 17px;
+  border:yellow;
+  font-weight: 100px;
+  
+}
+
+
+
+
+
+
+
+
+.vp-lg a{
+ 
+  color: rgb(0, 0, 0);
+
+
+}
+.vp-lg i{
+  bottom: 12px;
+  right: 30px;
+}
